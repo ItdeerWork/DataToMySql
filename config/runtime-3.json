@@ -1,0 +1,21 @@
+{
+  "dataBase": {
+    "type": "mysql"
+  },
+  "message": [
+    {
+      "table": "demo2",
+      "threads": 1,
+      "batchSize": 10,
+      "fieldType": "files",
+      "dataNumber": 100,
+      "timeFrequency": 1000,
+      "fieldMapping": "tagname,tagvalue,isgood,sendts,pits",
+      "files" : {
+        "fields": "tagName==row_1&&tagValue==row_2(row_3,row_4)&&isGood==boolean(0)&&sendts==date&&pits==date",
+        "mapping": "row_1,row_2,row_3,row_4",
+        "fileName": "itdeer.csv"
+      }
+    }
+  ]
+}

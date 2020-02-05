@@ -1,0 +1,33 @@
+{
+  "dataBase": {
+    "type": "mysql"
+  },
+  "message": [
+    {
+      "table": "demo2",
+      "threads": 1,
+      "batchSize": 10,
+      "fieldType": "points",
+      "dataNumber": 100,
+      "timeFrequency": 1000,
+      "fieldMapping": "tagname,tagvalue,isgood,sendts,pits",
+      "points": [
+        {
+          "point": "tagname==CH4.A1&&tagvalue==int(0,10)&&isgood==boolean(0)&&sendts==date(now,yyyy-MM-dd HH:mm:ss)&&pits==date(now,yyyy-MM-dd HH:mm:ss.SSS)"
+        },
+        {
+          "point": "tagname==CH4.A2&&tagvalue==int(5,10)&&isgood==boolean(0)&&sendts==date(now,yyyy-MM-dd HH:mm:ss)&&pits==date(now,yyyy-MM-dd HH:mm:ss.SSS)"
+        },
+        {
+          "point": "tagname==CH4.A3&&tagvalue==int(10,20)&&isgood==boolean(0)&&sendts==date(now,yyyy-MM-dd HH:mm:ss)&&pits==date(now,yyyy-MM-dd HH:mm:ss.SSS)"
+        },
+        {
+          "point": "tagname==CH4.A4&&tagvalue==int(20,30)&&isgood==boolean(0)&&sendts==date(now,yyyy-MM-dd HH:mm:ss)&&pits==date(now,yyyy-MM-dd HH:mm:ss.SSS)"
+        },
+        {
+          "point": "tagname==CH4.A5&&tagvalue==int(20,40)&&isgood==boolean(0)&&sendts==date(now,yyyy-MM-dd HH:mm:ss)&&pits==date(now,yyyy-MM-dd HH:mm:ss.SSS)"
+        }
+      ]
+    }
+  ]
+}

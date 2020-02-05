@@ -1,0 +1,33 @@
+{
+  "dataBase": {
+    "type": "mysql"
+  },
+  "message": [
+    {
+      "table": "demo1",
+      "threads": 1,
+      "batchSize": 10,
+      "fieldType": "fields",
+      "dataNumber": 100,
+      "timeFrequency": 1000,
+      "fieldMapping": "tagname,tagvalue,isgood,sendts,pits",
+      "fields": [
+        {
+          "field": "tagName==string"
+        },
+        {
+          "field": "tagValue==int(1,50)"
+        },
+        {
+          "field": "isGood==boolean"
+        },
+        {
+          "field": "sendTS==date"
+        },
+        {
+          "field": "piTS==date"
+        }
+      ]
+    }
+  ]
+}
